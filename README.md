@@ -29,18 +29,9 @@ Saving lifes via converting night images to day images to keep the burglars away
 
 ### Built With
 
-* [Python]
-* [Pytorch]
-* [OpenCV]
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-## Usage
+* Python
+* Pytorch
+* OpenCV
 
 
 <!-- CONTRIBUTING -->
@@ -61,3 +52,12 @@ Contributions are what make the open source community such an amazing place to b
 Mohamed Mokhtar - [@rrrokhtar](https://twitter.com/rrrokhtar) - rrrokhtar@gmail.com
 
 Project Link: [https://github.com/rrrokhtar/dark-night-gan](https://github.com/rrrokhtar/dark-night-gan)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* CycleGAN
+* ComboGAN
+* ToDayGAN
