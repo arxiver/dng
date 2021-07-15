@@ -1,0 +1,32 @@
+options:
+  name: darknight  # name of the experiment. It decides where to store samples and models
+  checkpoints_dir: '../checkpoints/' # checkpoints saving directory
+  dataroot: '../dataset_dir/' # dataset directory
+  niter: 100 # number of epochs at starting learning rate 
+  niter_decay: 100 # of epochs to linearly decay learning rate to zero
+  n_domains: 2 # number of domains on the dataset
+  which_epoch: 0 # starting epoch id
+  lr: 0.0002 # initial learning rate for ADAM
+  beta1: 0.5 # momentum term of ADAM
+  lambda_cycle: 10.0 # weight for cycle loss (A -> B -> A)
+  lambda_identity: 0.0 # weight for identity "autoencode" mapping (A -> A)
+  lambda_latent: 0.0 # weight for latent-space loss (A -> z -> B -> z)
+  lambda_forward: 0.0 # weight for forward loss (A -> B; try 0.2)
+  save_epoch_freq: 5 # priodic time of saving the weights
+  pool_size: 50 # number of images on the pool store 
+  loadSize: 512
+  fineSize: 256
+  input_nc: 3 # number of input channels (RGB)
+  output_nc: 3 # number of output channels (RGB)
+  norm: instance # type of normalization batch or instance
+  gpu_ids:
+    - 0
+  nThreads: 2 # number of threads
+  batchSize: 64 # batch training size
+  use_dropout: True # using drop out regularization
+  phase: train # make it 'test' #uncomment in case of testing
+  ngf: 64 # number of gen filters in first conv layer
+  ndf: 64 # number of discrim filters in first conv layer
+  netG_n_blocks: 9 # number of residual blocks to use for netG
+  netG_n_shared: 0 # number of blocks to use for netG shared center module
+  netD_n_layers: 4 # number of layers to use for netD
