@@ -91,9 +91,8 @@ class DarkNight():
         image = fake[0]
         p = transforms.Compose([transforms.Resize((h ,w))])
         image = p(image)
-        image_numpy = img.cpu().detach().numpy()
+        image_numpy = image.cpu().detach().numpy()
         image_numpy = (np.transpose(image_numpy, (1, 2, 0)) + 1) / 2.0 * 255.0
-        plt.imshow(image_numpy)
         if image_numpy.shape[2] < 3:
             image_numpy = np.dstack([image_numpy]*3)
         imtype=np.uint8
