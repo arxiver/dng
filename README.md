@@ -24,7 +24,7 @@
   <h3 align="center">DARK NIGHT GAN</h3>
 
   <p align="center">
-    project_description
+    Saving lifes via converting night images to day images to keep the burglars away using generative adversial networks (cyclegans) and classical computer vision solutions
     <br />
     <a href="https://github.com/rrrokhtar/repo_name"><strong>Explore the docs »</strong></a>
     <br />
