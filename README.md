@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/rrrokhtar/repo_name">
+  <a href="https://github.com/rrrokhtar/dark-night-gan">
     <img src="images/logo.png" alt="Logo" width="341" height="115">
   </a>
 
@@ -10,7 +10,7 @@
   <p align="center">
     Saving lifes via converting night images to day images to keep the burglars away using generative adversial networks (cyclegans) and classical computer vision solutions
     <br />
-    <a href="https://github.com/rrrokhtar/dark-night-gan"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rrrokhtar/dark-night-gan/tree/master/docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/rrrokhtar/dark-night-gan">View Demo</a>
