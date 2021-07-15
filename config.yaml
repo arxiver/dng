@@ -14,8 +14,8 @@ options:
   lambda_forward: 0.0 # weight for forward loss (A -> B; try 0.2)
   save_epoch_freq: 5 # priodic time of saving the weights
   pool_size: 50 # number of images on the pool store 
-  loadSize: 512
-  fineSize: 256
+  loadSize: 512 #size of the images scale
+  fineSize: 256 # size of images after croping 
   input_nc: 3 # number of input channels (RGB)
   output_nc: 3 # number of output channels (RGB)
   norm: instance # type of normalization batch or instance

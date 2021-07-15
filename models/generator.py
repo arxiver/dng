@@ -1,6 +1,15 @@
-
 from .blocks import *
-def Generator(input_nc, output_nc, ngf, n_blocks, n_blocks_shared, n_domains, norm='batch', use_dropout=False, gpu_ids=[]):
+def Generator(opt):
+    input_nc = opt.input_nc
+    output_nc = opt.output_nc
+    ngf = opt.ngf
+    n_blocks = opt. netG_n_blocks
+    n_blocks_shared = opt.netG_n_shared
+    n_domains = opt.n_domains
+    norm = opt.norm or 'batch'
+    use_dropout=opt.use_dropout
+    gpu_ids = opt.gpu_ids
+    gpus = gpu_ids
     norm_layer = get_norm_layer(norm_type=norm)
     if type(norm_layer) == functools.partial:
         use_bias = norm_layer.func == nn.InstanceNorm2d
