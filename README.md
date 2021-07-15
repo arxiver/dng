@@ -5,14 +5,13 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+-->
 
 
 <!-- PROJECT LOGO -->
@@ -22,7 +21,7 @@
     <img src="images/logo.png" alt="Logo" width="341" height="115">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">DARK NIGHT GAN</h3>
 
   <p align="center">
     project_description
