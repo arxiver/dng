@@ -25,13 +25,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+Saving lifes via converting night images to day images to keep the burglars away using generative adversial networks (cyclegans) and classical computer vision solutions
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Python]
+* [Pytorch]
+* [OpenCV]
 
 
 
@@ -40,14 +40,7 @@
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
-
-
-### Installation
-
 ## Usage
-
-
 
 
 <!-- CONTRIBUTING -->
@@ -68,12 +61,3 @@ Contributions are what make the open source community such an amazing place to b
 Mohamed Mokhtar - [@rrrokhtar](https://twitter.com/rrrokhtar) - rrrokhtar@gmail.com
 
 Project Link: [https://github.com/rrrokhtar/dark-night-gan](https://github.com/rrrokhtar/dark-night-gan)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
